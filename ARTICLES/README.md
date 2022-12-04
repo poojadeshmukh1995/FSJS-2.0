@@ -3,3 +3,6 @@
 
 # 2nd Article - CSS Introduction
 [Check here](https://poojadesh.hashnode.dev/make-your-html-look-beautiful)
+
+# 3rd Article - CSS Positions
+[Check here](https://poojadesh.hashnode.dev/positions-in-css)
