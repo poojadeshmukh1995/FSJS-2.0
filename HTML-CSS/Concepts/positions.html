@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+        body {
+            background: #242B2E;
+        }
+
+        /* div{
+            height: 100px;
+            width: 100px;
+            background-color: yellowgreen;
+            text-align: center;
+            border: #242B2E 1px solid;
+        } */
+        .container {
+            display: flex;
+
+        }
+
+        .static-pos {
+            position: static;
+            top: 10;
+            left: 10;
+            height: 100px;
+            width: 100px;
+            background-color: yellowgreen;
+            text-align: center;
+            border: #242B2E 1px solid;
+            font-size: 20px;
+        }
+
+        .relative-container {
+            position: relative;
+            top: 50px;
+            left: 20px;
+            height: 100px;
+            width: 100px;
+            background-color: yellowgreen;
+            text-align: center;
+            border: #242B2E 1px solid;
+            font-size: 20px;
+        }
+
+        .absolute-container {
+            position: absolute;
+            top: 50px;
+            left: 20px;
+            height: 100px;
+            width: 100px;
+            background-color: yellowgreen;
+            text-align: center;
+            border: #242B2E 1px solid;
+            font-size: 20px;
+        }
+
+        .fixed-container {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            height: 100px;
+            width: 100px;
+            background-color: yellowgreen;
+            text-align: center;
+            border: #242B2E 1px solid;
+            font-size: 20px;
+        }
+        .container2 {
+            background-color: aqua;
+            margin-top: 10%;
+            height: 200px;
+            width: 500px;
+            overflow: scroll;
+            
+        }
+        .sticky-container {
+            margin-top: 10px;
+            background-color: antiquewhite;
+            position: sticky;
+            top: 2px;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="static-pos">static</div>
+        <div class="relative-container">relative</div>
+        <div class="absolute-container">absolute</div>
+        <div class="fixed-container">fixed</div>
+    </div>
+    <div class="container2">
+        <div class="sticky-container">sticky</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolores sequi natus? Doloribus vel
+            voluptatibus quisquam officia culpa illo et, optio vero veniam? Necessitatibus optio rerum quaerat explicabo
+            vitae architecto, nobis recusandae repellat facere totam non beatae a molestias earum debitis provident
+            repudiandae atque rem eum amet ipsa hic eligendi quam! Officia eaque aut quod. Veritatis officia labore
+            doloremque enim molestias quasi pariatur sit quidem amet debitis atque cupiditate quisquam totam natus,
+            error corporis expedita vero numquam possimus? Amet quis voluptatum et ad, voluptate ducimus vero accusamus
+            excepturi quibusdam ea dolore dolorum. Rem veritatis tempora eum vitae recusandae. Eum, omnis numquam esse
+            neque debitis doloribus ipsa nihil! Reiciendis, odio! Error, dicta tenetur molestias perferendis laboriosam
+            maiores deleniti maxime aliquid similique harum? Vero doloribus harum, aperiam provident eius fugiat sint
+            atque, ex ducimus nihil consequatur architecto amet fuga deleniti adipisci! Odio ratione laudantium ullam
+            culpa natus aspernatur atque perferendis rerum dolorum doloremque reprehenderit rem iusto maxime, facilis
+            sunt eius. Doloremque numquam facilis unde perspiciatis repudiandae delectus! Dolore asperiores modi nemo
+            natus ratione obcaecati eligendi nihil ex magnam quibusdam, dolorum quaerat cupiditate ut itaque, explicabo
+            et fugiat facilis totam esse mollitia alias voluptas id! Blanditiis consequatur ea molestiae corrupti autem
+            maiores quaerat?</div>
+    </div>
+</body>
+
+</html>
