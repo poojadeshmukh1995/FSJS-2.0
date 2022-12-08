@@ -13,3 +13,6 @@
 
 # 4th Article - CSS Box Model
 [Check here](https://poojadesh.hashnode.dev/css-box-model)
+
+# 5th Article - CSS Pseudo elements
+[Check here](https://github.com/poojadeshmukh1995/FSJS-2.0/blob/main/HTML-CSS/Concepts/pseudo.html)
