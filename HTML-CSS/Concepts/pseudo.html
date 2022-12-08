@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+</head>
+<style>
+    body {
+        background: #242B2E;
+        color: #ffffff;
+    }
+
+    /* p::first-letter {
+        background-color: greenyellow;
+    }
+    p::first-line {
+        color: red;
+    } */
+    p{
+        color: #777777;
+        font-size: 20px;
+    }
+    /* .one::after {
+        content: 'I am added using ::after';
+        font-size: 18px;
+        color: #ffffff;
+    } */
+    /* .two::before {
+        content: 'I am added using ::before';
+        font-size: 18px;
+        color: #ffffff;
+    } */
+
+    span::first-letter{
+        font-size: 80px;
+    }
+    p {
+  width: 500px;
+  line-height: 1.5;
+}
+
+ /* p::first-letter {
+  color: white;
+  background-color: black;
+  border-radius: 2px;
+  box-shadow: 3px 3px 0 red;
+  font-size: 250%;
+  padding: 6px 3px;
+  margin-right: 6px;
+  float: left;
+} */
+
+ul li::marker{
+    color: red;
+}
+p::selection{
+    background-color: yellow;
+    size: 30px;
+    color: black;
+}
+
+input:autofill {
+  border: 3px solid red;
+}
+input:enabled {
+    background-color: gold;
+}
+/* input:disabled{
+    border: 4px solid red;
+} */
+
+*:read-only {
+    color: aqua;
+}
+*:read-write {
+    border: 3px solid #777777 ;
+}
+input:placeholder-shown {
+height: 30px;
+}
+
+button:hover{
+    background-color: pink;
+    color: black;
+}
+
+</style>
+
+
+<body>
+<p class="one">Paragraph one</p>
+<!-- <p class="two">Paragraph two</p> -->
+
+<!-- <span>Hello Pooja</span> -->
+<ul>
+    <li>line 1</li>
+    <li>line 2</li>
+    <li>line 3</li>
+    <li>line 4</li>
+</ul>
+
+Name : <input type="text" name="" id=""  placeholder="input">
+
+<button>Click Me</button>
+
+</body>
+
+</html>
