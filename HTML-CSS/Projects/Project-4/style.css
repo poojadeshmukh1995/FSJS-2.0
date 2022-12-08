@@ -1,68 +1,115 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    background-color: #010101;
-    color: #ffffff;
+body{
+    max-width: 1440px;
+    background-color: #F0F4F5;
+    margin: auto; /* Auto */
+    overflow: hidden;
 }
 
-.container {
-    margin: 3% 20%;
-    position: absolute;
-}
-
-.first-container {
+nav{
+    height: 15vh;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    padding: 0 5%;
+}
+nav ul{
+    display: flex;
     align-items: center;
 }
-
-nav ul li {
+nav ul li{
     list-style: none;
-    margin-right: 20px;
-    color: gray;
-    font-weight: bold;
-
+    margin-right: 50px;
+    font-weight: 600;
+}
+nav ul li:first-child{
+    color: green;
 }
 
-nav ul {
+/* Hero Section */
+main{
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 85vh;
 }
 
-nav ul :last-child {
-    background-color: transparent;
-    color: #f0bb2c;
-    border: 1px solid #f0bb2c;
-    border-radius: 8px;
-    height: 35px;
-    width: 120px;
-    font-weight: bold;
-
-
+main section {
+    width: 50%;
 }
 
-.second-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 40px 0;
+.leftsection{
+    margin-left: 5%;
+    position: relative;
 }
 
-.heading {
-    font-size: 35px;
-    font-weight: bold;
+.topangle{
+    width: 25px;
 }
 
-.para {
-    color: #beb8b8;
-    padding: 0 130px 0 40px;
+.leftsection h1{
+    font-size: 70px;
 }
 
-.bannerimg {
-    height: 340px;
-    width: auto;
+.leftsection p {
+    color: #808080;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.bottomangle{
+    width: 25px;
+    position: absolute;
+    right: 25px;
+}
+
+.stethoscope{
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    right: -25px;
+    z-index: -1;
+}
+
+.mouse{
+    position: absolute;
+    right: -30px;
+    bottom :0;
+    width: 30px;
+}
+
+.leftsection button{
+    color: white;
+    background-color: green;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 40px;
+    font-size: 25px;
+}
+
+/*  Right Side */
+.greenbox,  .yellowbox{
+    position: absolute;
+    right: 0;
+}
+.greenbox{
+    width: 35%;
+    bottom: 30px;
+}
+.yellowbox{
+    width: 30%;
+    bottom: 50px;
+}
+
+
+.doctor{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
 }
