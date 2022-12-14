@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 24px 34px;
+    background-color: #000;
+
+}
+
+.flex-space-btw {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav>ul {
+    list-style: none;
+    display: flex;
+}
+
+ul>li {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.greyColor {
+    color: #a39f9f;
+}
+
+.bluecolor {
+    color: #0484be;
+}
+
+.commonbtn {
+    background-color: #1e93c9;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 24px;
+
+}
+
+.loginbtn {
+    /* padding: 16px 40px;   */
+    padding: 10px 32px;
+}
+
+.first-Container {
+    margin-top: 60px;
+}
+
+.heading {
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 600;
+    margin: auto;
+}
+
+.para {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.padding {
+    padding-right: 100px;
+}
+
+.startedbtn {
+    padding: 18px 40px;
+    border-radius: 30px;
+}
+
+.transperantbtn {
+    background: transparent;
+    border: 1px solid #ffffff;
+    margin-left: 40px;
+}
+
+.btngrp {
+    margin-top: 60px;
+}
