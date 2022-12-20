@@ -16,3 +16,6 @@
 
 # 5th Article - CSS Pseudo elements
 [Check here](https://poojadesh.hashnode.dev/css-pseudo-elements-and-classes)
+
+# 6th Article - Array
+[Check here](https://poojadesh.hashnode.dev/array-in-javascript)
