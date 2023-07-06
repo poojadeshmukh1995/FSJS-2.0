@@ -81,3 +81,18 @@
 let cities = ['Pune','Mumbai','Nagpur','Amravati'];
 console.log(cities.sort())
 console.log(cities)
+
+
+const myObj = {
+    name:'Pooja',
+    age:28,
+    color:'White'
+}
+
+for(const obj in myObj){
+    console.log(myObj[obj])
+}
+
+for(const city in cities){
+    console.log(cities[city])
+}
